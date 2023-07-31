@@ -118,6 +118,7 @@ public partial class KinoContext : DbContext
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.AgeRating).HasColumnName("age_rating");
             entity.Property(e => e.Budget).HasColumnName("budget");
+            entity.Property(e => e.MediaSource).HasColumnName("media_source");
             entity.Property(e => e.MovieStatus).HasColumnName("movie_status");
             entity.Property(e => e.Overview).HasColumnName("overview");
             entity.Property(e => e.Popularity).HasColumnName("popularity");

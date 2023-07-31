@@ -26,6 +26,8 @@ public partial class Movie
 
     public string AgeRating { get; set; } = null!;
 
+    public string? MediaSource { get; set; }
+
     public virtual ICollection<MovieCast> MovieCasts { get; set; } = new List<MovieCast>();
 
     public virtual ICollection<MovieCrew> MovieCrews { get; set; } = new List<MovieCrew>();
